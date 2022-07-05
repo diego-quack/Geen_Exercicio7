@@ -4,8 +4,8 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 
 body{
@@ -18,14 +18,35 @@ body{
 
 
 .conteiner{
-    max-width: 700px;
+    max-width: 450px;
     width: 100%;
     background: white;
     padding: 25px 30px;
     border-radius: 5px;
+    background-color: rgb(243, 243, 243);
+    box-sizing: border-box;
+}
+
+.conteiner .input:focus{
+    background-color: white;
+    border: 0.5px solid;
 }
 
 select{
     padding: 5px;
     font-size: 13px;
+}
+
+input[type="submit"]{
+    padding: 2px;
+    font-size: 13px;
+    background-color: rgb(24, 91, 215);
+    border-radius: 4px;
+    color: white;
+}
+
+input[type="button"]{
+    padding: 2px;
+    font-size: 13px;
+    border-radius: 4px;
 }
