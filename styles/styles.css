@@ -16,7 +16,6 @@ body{
     padding: 10px;
 }
 
-
 .conteiner{
     max-width: 450px;
     width: 100%;
@@ -27,9 +26,8 @@ body{
     box-sizing: border-box;
 }
 
-.conteiner .input:focus{
-    background-color: white;
-    border: 0.5px solid;
+.conteiner .form .input .textarea{
+    resize: none;
 }
 
 select{
@@ -38,15 +36,19 @@ select{
 }
 
 input[type="submit"]{
-    padding: 2px;
+    padding: 2px 5px;
     font-size: 13px;
     background-color: rgb(24, 91, 215);
-    border-radius: 4px;
+    border-radius: 3px;
     color: white;
+    border: 1px solid #8b8b8b;
+    cursor: pointer;
 }
 
 input[type="button"]{
-    padding: 2px;
+    padding: 2px 5px;
     font-size: 13px;
-    border-radius: 4px;
+    border-radius: 3px;
+    border: 1px solid #8b8b8b;
+    cursor: pointer;
 }
